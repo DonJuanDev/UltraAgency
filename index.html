@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ultra Agency - Desenvolvimento de software personalizado com foco em performance e inovação. Transformando ideias em realidade digital.">
+    <meta name="keywords" content="desenvolvimento de software, desenvolvimento web, aplicativos, design UX/UI, agência digital">
+    <meta name="author" content="Ultra Agency">
+    <title>Ultra Agency - Desenvolvimento de Software</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">Ultra Agency</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div id="particles-network" class="particles-network"></div>
+        <div class="hero-content">
+            <h1>Transformando Ideias em Realidade Digital</h1>
+            <p>Desenvolvimento de software personalizado com foco em performance e inovação</p>
+            <a href="#contact" class="cta-button">Inicie seu Projeto</a>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="about" class="sobre">
+        <h2>Sobre Nós</h2>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="assets/team/gustavo.jpg" alt="Gustavo Abrahão">
+                <h3>Gustavo Abrahão</h3>
+                <p>CEO/Desenvolvedor Chefe</p>
+            </div>
+            <div class="team-member">
+                <img src="assets/team/juan.jpg" alt="Juan Pereira">
+                <h3>Juan Pereira</h3>
+                <p>Desenvolvedor Full Stack</p>
+            </div>
+            <div class="team-member">
+                <img src="assets/team/abel.jpg" alt="Abel Chiquetti">
+                <h3>Abel Chiquetti</h3>
+                <p>Designer UX/UI</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="services" class="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Desenvolvimento de Apps</h3>
+                <p>Aplicativos nativos e híbridos para iOS e Android</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Desenvolvimento Web</h3>
+                <p>Sites responsivos e aplicações web modernas</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Design UX/UI</h3>
+                <p>Interfaces intuitivas e experiências memoráveis</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfólio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>Nosso Portfólio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="assets/portfolio/projeto1.webp" alt="Projeto 1">
+                <div class="portfolio-item-content">
+                    <h3>App de Delivery</h3>
+                    <p>Aplicativo de entrega de comida com interface moderna e intuitiva.</p>
+                    <a href="#" class="portfolio-item-link">Ver Projeto</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="assets/portfolio/projeto2.webp" alt="Projeto 2">
+                <div class="portfolio-item-content">
+                    <h3>E-commerce Premium</h3>
+                    <p>Loja virtual com design exclusivo e experiência de compra diferenciada.</p>
+                    <a href="#" class="portfolio-item-link">Ver Projeto</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="assets/portfolio/projeto3.png" alt="Projeto 3">
+                <div class="portfolio-item-content">
+                    <h3>App de Gestão</h3>
+                    <p>Sistema de gestão empresarial com dashboard personalizado.</p>
+                    <a href="#" class="portfolio-item-link">Ver Projeto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contact" class="contato">
+        <h2>Entre em Contato</h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensagem" required></textarea>
+                <button type="submit" class="submit-button">Enviar Mensagem</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>contato@ultraagency.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+55 (11) 9999-9999</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Ultra Agency. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Botão de Voltar ao Topo -->
+    <a href="#home" id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html> 
